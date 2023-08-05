@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>TO DO LIST</title>
+</head>
+<body>
+   <div class="container">
+    <h1 class="row">
+      &nbsp;&nbsp;&nbsp;
+      TO-DO LIST APPLICATION
+      &nbsp;&nbsp;&nbsp;
+    </h1>
+    <br/><br/>
+    <div class="row">
+        <form class="form-inline col-sm-offset-3">
+            <div class="input-group">
+                <span class="input-group-addon">
+                  <i class="glyphicon glyphicon-pencil"></i>
+                </span>
+                <input type="text" class="form-control"
+                       placeholder="todo-item"
+                       id="box" style="width: 30vw" />
+            </div>
+            <div class="form-group">
+                <input type="button"
+                       class="btn btn-primary form-control"
+                       value="ADD" style="width: 10vw"
+                       onclick="add_item()" />
+            </div>
+        </form>
+    </div>
+    <div class="row">
+        <ul id="list_item">
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="MAIN.JS"></script>
+</div>
+</body>
+</html>
